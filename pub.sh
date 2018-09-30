@@ -11,11 +11,6 @@ cp ./index.html ./publish/index.html -rf
 cp ./CNAME ./publish/CNAME -rf
 #进入gh-pages发布逻辑
 cd publish
-# 开始计算js的新名字
-jsName=$(ls static|grep \.js)
-#jsName="${jsName}?sign=$(date +%s)"
-echo "modfiy js filename to:$jsName"
-sed -i "s/build\.js/$jsName/g" ./index.html
 mv index.html 404.html
 echo "" > .gitignore
 git init
