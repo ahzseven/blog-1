@@ -11,7 +11,7 @@ cp ./index.html ./publish/index.html -rf
 cp ./CNAME ./publish/CNAME -rf
 #进入gh-pages发布逻辑
 cd publish
-mv index.html 404.html
+cp index.html 404.html
 echo "" > .gitignore
 git init
 git add .
