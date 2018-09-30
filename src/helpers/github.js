@@ -14,7 +14,7 @@ github.getList = function() {
         if(listCache!=''){
             resolve(listCache);
         }
-        http.get(githubURl,{'creator':author}).then(
+        http.get(githubURl).then(
             (response) => {
                 listCache=response;
                 resolve(response);

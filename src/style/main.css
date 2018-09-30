@@ -1548,14 +1548,16 @@ nav.main:after {
     clear: both;
 }
 
-nav.main a.brand {
+nav.main a.brand,nav.main a.other {
     color: #e74430;
     font-size: 21px;
     width: 130px;
     line-height: 90px;
 }
 
-nav.main a.brand .iconic {
+
+
+nav.main a.brand .iconic,nav.main a.other {
     position: relative;
     outline: none;
     top: 15px;

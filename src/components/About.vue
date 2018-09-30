@@ -48,10 +48,10 @@ import {
 } from '../helpers/github'
 import Render from '../helpers/render'
 import Gitment from '../directives/gitment'
-
 import tocbot from 'tocbot'
+import {config} from '../config'
 export default {
-    name: 'Detail',
+    name: 'About',
     filters:{
         'fill_user_url':(v)=>{
             return 'https://github.com/'+v
@@ -91,7 +91,7 @@ export default {
                 headingSelector: 'h1, h2, h3',
             });
             this.had_toc=true;
-            let flag=this.$route.params.id;
+            let flag= config.aboutme.id;
             if (this.loading)
                 document.title = "loading ---- 7326 Lite";
             const gitment = new Gitment({
@@ -102,7 +102,7 @@ export default {
         }
     },
     created() {
-        let flag=this.$route.params.id;
+        let flag= config.aboutme.id;
         github.getDetail(flag).then(
             (res) => {
                 this.status='正在解析...';

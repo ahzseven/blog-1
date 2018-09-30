@@ -7,6 +7,7 @@ import Detail from './components/Detail.vue'
 import List from './components/List.vue'
 import Error from './components/Error.vue'
 import Filter from './filters/index'
+import About from './components/About'
 
 Vue.filter('date_format',Filter.date_format)
 
@@ -32,6 +33,10 @@ const routes = [
     {
         path: '/',
         component: List,
+    },
+    {
+        path:'/about',
+        component: About,
     },
     {
         path: '*',
