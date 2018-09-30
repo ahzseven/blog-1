@@ -4,7 +4,7 @@
         <div class="container-lg d-flex flex-justify-between pl-3">
             <div>
                 <router-link :to="'/list'" class="brand">
-                    <span class="h1"> 青枫浦 Lite</span>
+                    <span class="h1"> IT创新</span>
                 </router-link>
             </div>
             <div>
