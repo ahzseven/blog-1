@@ -1,12 +1,12 @@
 export const config = {
     user: {
-        name: "rozbo",
+        name: "7326",
         repo: "blog",
-        client_id: '39433d3b141ce642b576',
-        client_secret: '76a75f23eba46b6feabd610232714ef20cad377a'
+        client_id: '47c1419ac589ba59abf8',
+        client_secret: 'acfa0b9377406274cdaad4ffaac2e7a68efb3e4f'
     },
     site: {
-        name: '清风浦 Lite'
+        name: 'IT创新'
     },
     guest: {
         access_token_key: 'xxxx',

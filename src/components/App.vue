@@ -4,7 +4,7 @@
         <div class="container-lg d-flex flex-justify-between pl-3">
             <router-link :to="'/list'" class="brand">
             <img :src="brand">
-                <span class="h1"> 青枫浦 Lite</span>
+                <span class="h1">IT创新</span>
             </router-link>
         </div>
     </nav>
@@ -13,8 +13,8 @@
         </router-view>
     </section>
     <footer class="main container-lg">
-        <p>This is A light style blog based on Vue with Github api, open source by
-            <a href="https://github.com/rozbo">rozbo</a></p>
+        <p>This is A light style blog based on Vue with Github api</p>
+            <p>Edit address <a href="https://github.com/7326/blog/issues">issues</a></p>
     </footer>
 </div>
 </template>
@@ -30,7 +30,7 @@ export default {
   name: "app",
   data: function() {
     return {
-      subtitle: "青枫浦 Lite",
+      subtitle: "IT创新",
       brand: brand
     };
   }

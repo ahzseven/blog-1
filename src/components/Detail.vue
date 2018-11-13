@@ -85,7 +85,7 @@ export default {
       });
       this.had_toc = true;
       let flag = this.$route.params.id;
-      if (this.loading) document.title = "loading ---- 青枫浦 Lite";
+      if (this.loading) document.title = "loading ---- IT创新";
       const gitment = new Gitment({
         id: flag, // optional
         meta: this.detail

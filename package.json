@@ -3,6 +3,7 @@
   "version": "3.0.9",
   "description": "a vue with github api blog , just a page and super lite by rozbo",
   "scripts": {
+    "start": "webpack-dev-server --inline --hot --no-info --history-api-fallback --compress --port 4000 --open",
     "dev": "webpack-dev-server --mode=development --output-filename='build.js'  --inline --hot --no-info --history-api-fallback --compress --port 4000",
     "build": "webpack --mode=production --progress --hide-modules"
   },
