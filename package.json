@@ -5,7 +5,8 @@
   "scripts": {
     "start": "webpack-dev-server --inline --hot --no-info --history-api-fallback --compress --port 4000 --open",
     "dev": "webpack-dev-server --mode=development --output-filename='build.js'  --inline --hot --no-info --history-api-fallback --compress --port 4000",
-    "build": "webpack --mode=production --progress --hide-modules"
+    "build": "webpack --mode=production --progress --hide-modules",
+    "pub": "./pub.sh"
   },
   "repository": {
     "type": "git",
